@@ -112,7 +112,7 @@ public class BrowserStackAndroid {
 
                 MobileElement inputField = driver.findElement(By.xpath("//XCUIElementTypeTextField[@name='Text Input']"));
                 wait.until(ExpectedConditions.visibilityOf(inputField));
-                inputField.sendKeys("IOS Test Text");
+                inputField.sendKeys("IOS Text GitTest");
             break;
 
 }
